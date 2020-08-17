@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>Rock Paper Scissors</title>
+		<link rel = "stylesheet" href = "Rocker Paper Scissor Design.css">
+	</head>
+		<body>
+			<header>
+				<h1> Rocker Paper Scissors </h1>
+			</header>
+
+			<div class = "scoreboard">
+				<!-- greater div class of the scoreboard -->
+				<div id = "user_label" class = "badge"> User </div>
+				<div id = "computer_label" class = "badge"> Comp </div>
+				<span id = "user_score"> 0 </span> : <span id = "computer_score"> 0 </span>
+				<!-- end of greater div class -->
+			</div>
+
+			<div class = "result">
+				<p> Click the buttons below to begin game! </p>
+			</div>
+
+			<div class = "choices">
+				<!-- greater div of class choices -->
+				<div class = "choice" id = "rock">
+					<img src = "rock.png" alt="" width = 150 height = 150>
+				</div>
+				
+				<div class = "choice" id = "paper">
+					<img src = "paper.png" alt="" width = 150 height=150>
+				</div>
+
+				<div class = "choice" id = "scissor">
+					<img src = "scizzor.png" alt="" width=150 height = 150>
+				</div>
+			</div>
+
+			<p id = "action-message"> Make Your Move </p> 
+
+			<script src = "appJS.js" charset = "utf-8""></script>
+
+			<div class = "reset">
+				<div class = "reset_button" id = "rest">
+					<img src = "reset.jpg" alt="" width=100 height=100>
+				</div>
+			</div>
+		</body>
+</html>
