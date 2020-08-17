@@ -13,7 +13,7 @@ Rock(player) lost to Paper(comp)
 Paper(player) lost to Scissor(comp)
 Scissor(player) lost to Rock(comp)
 
-![alt text](https://github.com/michaelohyang/Let-s-Play-Rock-Paper-Scissors/blob/[master]/webscreenshot.png?raw=true)
+![alt text](https://github.com/michaelohyang/Let-s-Play-Rock-Paper-Scissors/blob/master/webscreenshot.png?raw=true)
 
 #### Credit
 Michael Oh-Yang
